@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 1vw;
+  font-size: 2vw;
+  text-decoration: underline;
+  color: orange;
+}
+
+body {
+  color:aliceblue;
+}
+
+.testtext{
+  color: black;
+}
