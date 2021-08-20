@@ -2,18 +2,66 @@
   text-align: center;
 }
 
+.appIntro {
+  margin: -4vw 7.2vw 0vw 7.2vw;
+  text-align: justify;
+}
+
 li {
   display: inline-block;
   padding: 1vw;
-  font-size: 2vw;
-  text-decoration: underline;
-  color: orange;
+  font-size: 2.1vw;
+  color: #f8a202;
+  font-style: "Helvetica", sans-serif;
 }
 
 body {
-  color:aliceblue;
+  color: rgb(240, 248, 255);
 }
 
-.testtext{
-  color: black;
+.mainIcon {
+  width: 10vw;
+  height: 10vw;
+  padding: 20px;
+}
+
+.abtPageRes {
+  color: #66a466;
+  text-decoration: none;
+}
+/*
+=======================================================================
+                  CSS styles for displayed data
+=======================================================================
+*/
+
+.postBox {
+  flex-direction: column;
+  width: 30vw;
+  padding: 1vw 2vw 22vw 2vw;
+  margin: 0.3vw;
+  height: 10vw;
+  border: 1px solid #000000;
+}
+
+.postTitle {
+  color: #000000;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.postAuthorStyle {
+  font-weight: normal;
+}
+
+.postUpvoteStyle {
+  font-size: 2vw;
+}
+
+.postImage {
+  width: 10vw;
+  height: 10vw;
+  padding: 2px;
+  margin: 5px;
 }
