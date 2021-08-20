@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CleanReed/static/css/main.f96d0842.chunk.css",
-    "main.js": "/CleanReed/static/js/main.23878b18.chunk.js",
-    "main.js.map": "/CleanReed/static/js/main.23878b18.chunk.js.map",
+    "main.css": "/CleanReed/static/css/main.322307f7.chunk.css",
+    "main.js": "/CleanReed/static/js/main.b08b573b.chunk.js",
+    "main.js.map": "/CleanReed/static/js/main.b08b573b.chunk.js.map",
     "runtime-main.js": "/CleanReed/static/js/runtime-main.6a408b71.js",
     "runtime-main.js.map": "/CleanReed/static/js/runtime-main.6a408b71.js.map",
     "static/css/2.983f79de.chunk.css": "/CleanReed/static/css/2.983f79de.chunk.css",
@@ -12,14 +12,15 @@
     "static/js/3.4e7404d9.chunk.js.map": "/CleanReed/static/js/3.4e7404d9.chunk.js.map",
     "index.html": "/CleanReed/index.html",
     "static/css/2.983f79de.chunk.css.map": "/CleanReed/static/css/2.983f79de.chunk.css.map",
-    "static/css/main.f96d0842.chunk.css.map": "/CleanReed/static/css/main.f96d0842.chunk.css.map",
-    "static/js/2.73eb338d.chunk.js.LICENSE.txt": "/CleanReed/static/js/2.73eb338d.chunk.js.LICENSE.txt"
+    "static/css/main.322307f7.chunk.css.map": "/CleanReed/static/css/main.322307f7.chunk.css.map",
+    "static/js/2.73eb338d.chunk.js.LICENSE.txt": "/CleanReed/static/js/2.73eb338d.chunk.js.LICENSE.txt",
+    "static/media/CleanReed.dcb56c25.svg": "/CleanReed/static/media/CleanReed.dcb56c25.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6a408b71.js",
     "static/css/2.983f79de.chunk.css",
     "static/js/2.73eb338d.chunk.js",
-    "static/css/main.f96d0842.chunk.css",
-    "static/js/main.23878b18.chunk.js"
+    "static/css/main.322307f7.chunk.css",
+    "static/js/main.b08b573b.chunk.js"
   ]
 }
