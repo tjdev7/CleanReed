@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react'
 import axios from 'axios'
 
-export default class allPage extends React.Component {
+export default class progPage extends React.Component {
     constructor(props) {
         super()
         this.state = {
@@ -11,7 +11,7 @@ export default class allPage extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`https://www.reddit.com/r/all.json`).then((res) => {
+        axios.get(`https://www.reddit.com/r/programming.json`).then((res) => {
             const data = res.data.data.children.map((obj) => obj.data)
             this.setState({ data })
         })
@@ -22,24 +22,15 @@ export default class allPage extends React.Component {
             <ul>
                 {data.map((recentPost) => (
                     <li key={recentPost.permalink} className="postBox col">
-                        <img
-                            classname="img-fluid autogenImg"
-                            src={recentPost.thumbnail}
-                            alt="~~no picture available~~"
-                        />
-                        <br />
+                        {recentPost.thumbnail}
                         <span className="postTitle">{recentPost.title}</span>
                         <br />
                         <span className="postAuthorStyle">
                             by {recentPost.author}
-                        </span>
-                        <br />
+                        </span>{' '}
+                        |
                         <span className="postUpvoteStyle">
                             👍 {recentPost.ups} upvotes
-                        </span>
-                        <br />
-                        <span className="postUpvoteStyle">
-                            From /r/{recentPost.subreddit}/
                         </span>
                     </li>
                 ))}

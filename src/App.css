@@ -1,33 +1,45 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .appIntro {
-  margin: -4vw 7.2vw 0vw 7.2vw;
-  text-align: justify;
+    margin: -4vw 7.2vw 0vw 7.2vw;
+    text-align: justify;
 }
 
 li {
-  display: inline-block;
-  padding: 1vw;
-  font-size: 2.1vw;
-  color: #f8a202;
-  font-style: "Helvetica", sans-serif;
+    display: inline-block;
+    padding: 1vw;
+    font-size: 2.1vw;
+    color: #f8a202;
+    font-style: 'Helvetica', sans-serif;
 }
 
 body {
-  color: rgb(240, 248, 255);
+    color: rgb(240, 248, 255);
 }
 
 .mainIcon {
-  width: 10vw;
-  height: 10vw;
-  padding: 20px;
+    width: 20vw;
+    height: 10vw;
+    padding: 0px;
 }
 
 .abtPageRes {
-  color: #66a466;
-  text-decoration: none;
+    color: #66a466;
+    text-decoration: none;
+}
+
+img,
+.autogenImg {
+    width: 22vw;
+    height: 16vw;
+    color: #000000;
+}
+
+svg {
+    width: 2vw;
+    height: 16vw;
 }
 /*
 =======================================================================
@@ -36,32 +48,33 @@ body {
 */
 
 .postBox {
-  flex-direction: column;
-  width: 30vw;
-  padding: 1vw 2vw 22vw 2vw;
-  margin: 0.3vw;
-  height: 10vw;
-  border: 1px solid #000000;
+    flex-direction: column;
+    width: 45vw;
+    padding: 1vw 4vw 0vw 4vw;
+    margin: 0.3vw;
+    height: 40vw;
+    border: 1px solid #000000;
 }
 
 .postTitle {
-  color: #000000;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
+    color: #000000;
+    padding: 0vw 0vw 0vw 0vw;
+    /* font-family: 1vw; */
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .postAuthorStyle {
-  font-weight: normal;
+    font-size: 1.5vw;
 }
 
 .postUpvoteStyle {
-  font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .postImage {
-  width: 10vw;
-  height: 10vw;
-  padding: 2px;
-  margin: 5px;
+    width: 10vw;
+    height: 10vw;
+    padding: 2px;
+    margin: 5px;
 }
