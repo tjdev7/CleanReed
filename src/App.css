@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .App {
     text-align: center;
 }
@@ -11,7 +13,7 @@ li {
     display: inline-block;
     padding: 1vw;
     font-size: 2.1vw;
-    color: #f8a202;
+    color: #66a466;
     font-style: 'Helvetica', sans-serif;
 }
 
@@ -32,14 +34,18 @@ body {
 
 img,
 .autogenImg {
-    width: 22vw;
-    height: 16vw;
+    width: 26vw;
+    height: 18vw;
     color: #000000;
 }
 
 svg {
     width: 2vw;
     height: 16vw;
+}
+
+h1 {
+    color: #000000;
 }
 /*
 =======================================================================
@@ -49,19 +55,33 @@ svg {
 
 .postBox {
     flex-direction: column;
-    width: 45vw;
-    padding: 1vw 4vw 0vw 4vw;
+    width: 70vw;
+    /* padding: 1vw 3vw 0vw 3vw; */
     margin: 0.3vw;
     height: 40vw;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
+    color: #66a466;
+    /* background-color: #66a466; */
+}
+
+.postBoxProgpage {
+    flex-direction: column;
+    width: 70vw;
+    /* padding: 1vw 3vw 0vw 3vw; */
+    margin: 0.3vw;
+    height: 20vw;
+    border: 3px solid #000000;
 }
 
 .postTitle {
     color: #000000;
-    padding: 0vw 0vw 0vw 0vw;
-    /* font-family: 1vw; */
-    font-size: 1.2rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
     text-align: justify;
+    white-space: normal;
+    z-index: 1;
 }
 
 .postAuthorStyle {
