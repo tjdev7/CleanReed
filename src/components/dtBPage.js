@@ -27,7 +27,7 @@ export default class dtBPage extends React.Component {
                         <img
                             classname="img-fluid"
                             src={recentPost.thumbnail}
-                            alt=""
+                            alt="[No picture for this post]"
                         />
                         <br />
                         <span className="postTitle">{recentPost.title}</span>

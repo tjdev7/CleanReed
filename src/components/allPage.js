@@ -25,7 +25,7 @@ export default class allPage extends React.Component {
                         <img
                             classname="img-fluid autogenImg"
                             src={recentPost.thumbnail}
-                            alt="~~no picture available~~"
+                            alt="[No picture for this post]"
                         />
                         <br />
                         <span className="postTitle">{recentPost.title}</span>

@@ -21,7 +21,7 @@ export default class progPage extends React.Component {
         return (
             <ul>
                 {data.map((recentPost) => (
-                    <li key={recentPost.permalink} className="postBox col">
+                    <li key={recentPost.permalink} className="postBoxProgpage col">
                         {recentPost.thumbnail}
                         <span className="postTitle">{recentPost.title}</span>
                         <br />

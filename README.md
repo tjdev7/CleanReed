@@ -20,12 +20,13 @@ Proof of concept: I created this app with the intent of having a better and clea
 
 - [x] Better U/I scheme for app
 - [x] App extracts .json data from corresponding subreddits
-- [ ] Add tests for each app component
-
+- [ ] Develop tests for each React component
+- [ ] Add a permalink url to each post made
+- [ ] Align all posts into small rows
+- [ ] Perfect the color scheme and page layout for app 
 
 ### Future app goals:
 
-- [ ] Add tests for each app component
 - [ ] App can extract data from a specific subreddit API and present it with no issues or errors.
 - [ ] User has the option to search for any subreddit currently available and have most recent posts be displayed in the app 
 - [ ] Endless post scrolldown for chosen subreddit
