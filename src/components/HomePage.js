@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default class homePage extends React.Component {
+export default class HomePage extends React.Component {
     render() {
         return (
-            <div className="testtext">
+            <div className="appBuildFont">
                 <br />
                 <br />
 

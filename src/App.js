@@ -1,13 +1,13 @@
 import './App.css'
 import React from 'react'
 import CleanReed from './img/CleanReed.svg'
-import homePage from './components/homePage'
-import allPage from './components/allPage'
-import dtBPage from './components/dtBPage.js'
-import progPage from './components/progPage'
-import tILPage from './components/tILPage'
-import apPage from './components/apPage'
-import aboutPage from './components/aboutPage'
+import HomePage from './components/HomePage'
+import AllPage from './components/AllPage'
+import DTBPage from './components/DTBPage.js'
+import ProgPage from './components/ProgPage'
+import TLPage from './components/TLPage'
+import ApPage from './components/ApPage'
+import AboutPage from './components/AboutPage'
 
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
@@ -20,38 +20,38 @@ class App extends React.Component {
                     <br />
 
                     <BrowserRouter>
-                        <Link to="/homePage">
+                        <Link to="/HomePage">
                             <li>Home</li>
                         </Link>
 
-                        <Link to="/allPage">
+                        <Link to="/AllPage">
                             <li>General</li>
                         </Link>
 
-                        <Link to="/progPage">
+                        <Link to="/ProgPage">
                             <li>Programming</li>
                         </Link>
 
-                        <Link to="/dtBPage">
+                        <Link to="/DTBPage">
                             <li>Data Is Beautiful</li>
                         </Link>
-                        <Link to="/tILPage">
+                        <Link to="/TLPage">
                             <li>Today I Learned</li>
                         </Link>
-                        <Link to="/apPage">
+                        <Link to="/ApPage">
                             <li>AstroPhotography</li>
                         </Link>
-                        <Link to="/aboutPage">
+                        <Link to="/AboutPage">
                             <li>About</li>
                         </Link>
 
-                        <Route path="/homePage" component={homePage} />
-                        <Route path="/allPage" component={allPage} />
-                        <Route path="/dtBPage" component={dtBPage} />
-                        <Route path="/progPage" component={progPage} />
-                        <Route path="/tILPage" component={tILPage} />
-                        <Route path="/apPage" component={apPage} />
-                        <Route path="/aboutPage" component={aboutPage} />
+                        <Route path="/HomePage" component={HomePage} />
+                        <Route path="/AllPage" component={AllPage} />
+                        <Route path="/DTBPage" component={DTBPage} />
+                        <Route path="/ProgPage" component={ProgPage} />
+                        <Route path="/TLPage" component={TLPage} />
+                        <Route path="/ApPage" component={ApPage} />
+                        <Route path="/AboutPage" component={AboutPage} />
                     </BrowserRouter>
                 </header>
             </div>

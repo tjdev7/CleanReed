@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react'
 import axios from 'axios'
 
-export default class progPage extends React.Component {
+export default class ProgPage extends React.Component {
     constructor(props) {
         super()
         this.state = {
