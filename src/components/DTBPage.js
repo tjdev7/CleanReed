@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react'
 import axios from 'axios'
 
-export default class dtBPage extends React.Component {
+export default class DTBPage extends React.Component {
     constructor(props) {
         super()
         this.state = {
@@ -27,7 +27,7 @@ export default class dtBPage extends React.Component {
                         <img
                             classname="img-fluid"
                             src={recentPost.thumbnail}
-                            alt="[No picture for this post]"
+                            alt="[No available img]"
                         />
                         <br />
                         <span className="postTitle">{recentPost.title}</span>

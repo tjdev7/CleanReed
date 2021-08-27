@@ -5,8 +5,9 @@
 }
 
 .appIntro {
-    margin: -4vw 7.2vw 0vw 7.2vw;
+    margin: -4vw 4.2vw 0vw 4.2vw;
     text-align: justify;
+    font-size: 3vw;
 }
 
 li {
@@ -46,6 +47,10 @@ svg {
 
 h1 {
     color: #000000;
+}
+
+.appBuildFont {
+    padding: 10px;
 }
 /*
 =======================================================================
