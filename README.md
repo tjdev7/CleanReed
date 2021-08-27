@@ -8,7 +8,9 @@ API data app showcasing current posts inside reddit
 
 ## Why this app as created: 
 
-Proof of concept: I created this app with the intent of having a better and cleaner browsing experience when visiting different Reddit pages. Current app only has a few select pages
+Proof of concept: I created this app with the intent of having a better and cleaner browsing experience when visiting different Reddit pages. Current app only has a few select pages.
+
+Disclamer: This project is not supported, endoresed or sponsered by either Reddit or Advance Publications. This project is only designed to be an Open Source tool for users in the site
 
 #### How to use:
 
@@ -20,7 +22,7 @@ Proof of concept: I created this app with the intent of having a better and clea
 
 - [x] Better U/I scheme for app
 - [x] App extracts .json data from corresponding subreddits
-- [ ] Develop tests for each React component
+- [x] Develop tests for each React component
 - [ ] Add a permalink url to each post made
 - [ ] Align all posts into small rows
 - [ ] Perfect the color scheme and page layout for app 
