@@ -17,7 +17,6 @@ class App extends React.Component {
             <div className="App">
                 <header className="">
                     <img className="mainIcon" alt="appIcon" src={CleanReed} />
-                    <br />
 
                     <BrowserRouter>
                         <Link to="/HomePage">
