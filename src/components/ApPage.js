@@ -28,13 +28,13 @@ export default class ApPage extends React.Component {
                         <img
                             classname="img-fluid"
                             src={recentPost.thumbnail}
-                            alt="No available img"
+                            alt="[No img is available for the selected post]"
                         />
                         <br />
-                        <span className="postTitle">{recentPost.title}</span>
+                        <span className="postTitle">{recentPost.title.slice(0, 75)}</span>
                         <br />
                         <span className="postAuthorStyle">
-                            by {recentPost.author}
+                            by {recentPost.author} |
                         </span>{' '}
                         |
                         <span className="postUpvoteStyle">
