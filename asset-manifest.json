@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/CleanReed/static/css/main.2a62e30a.chunk.css",
-    "main.js": "/CleanReed/static/js/main.1fa32884.chunk.js",
-    "main.js.map": "/CleanReed/static/js/main.1fa32884.chunk.js.map",
-    "runtime-main.js": "/CleanReed/static/js/runtime-main.39c70b0a.js",
-    "runtime-main.js.map": "/CleanReed/static/js/runtime-main.39c70b0a.js.map",
-    "static/css/2.53150396.chunk.css": "/CleanReed/static/css/2.53150396.chunk.css",
-    "static/js/2.ac4072af.chunk.js": "/CleanReed/static/js/2.ac4072af.chunk.js",
-    "static/js/2.ac4072af.chunk.js.map": "/CleanReed/static/js/2.ac4072af.chunk.js.map",
-    "static/js/3.e41bf9a2.chunk.js": "/CleanReed/static/js/3.e41bf9a2.chunk.js",
-    "static/js/3.e41bf9a2.chunk.js.map": "/CleanReed/static/js/3.e41bf9a2.chunk.js.map",
+    "main.css": "/CleanReed/static/css/main.e9701e8c.chunk.css",
+    "main.js": "/CleanReed/static/js/main.8c9eef67.chunk.js",
+    "main.js.map": "/CleanReed/static/js/main.8c9eef67.chunk.js.map",
+    "runtime-main.js": "/CleanReed/static/js/runtime-main.f71123de.js",
+    "runtime-main.js.map": "/CleanReed/static/js/runtime-main.f71123de.js.map",
+    "static/css/2.acf9cc11.chunk.css": "/CleanReed/static/css/2.acf9cc11.chunk.css",
+    "static/js/2.7a653688.chunk.js": "/CleanReed/static/js/2.7a653688.chunk.js",
+    "static/js/2.7a653688.chunk.js.map": "/CleanReed/static/js/2.7a653688.chunk.js.map",
+    "static/js/3.f07fa93d.chunk.js": "/CleanReed/static/js/3.f07fa93d.chunk.js",
+    "static/js/3.f07fa93d.chunk.js.map": "/CleanReed/static/js/3.f07fa93d.chunk.js.map",
     "index.html": "/CleanReed/index.html",
-    "static/css/2.53150396.chunk.css.map": "/CleanReed/static/css/2.53150396.chunk.css.map",
-    "static/css/main.2a62e30a.chunk.css.map": "/CleanReed/static/css/main.2a62e30a.chunk.css.map",
-    "static/js/2.ac4072af.chunk.js.LICENSE.txt": "/CleanReed/static/js/2.ac4072af.chunk.js.LICENSE.txt",
+    "static/css/2.acf9cc11.chunk.css.map": "/CleanReed/static/css/2.acf9cc11.chunk.css.map",
+    "static/css/main.e9701e8c.chunk.css.map": "/CleanReed/static/css/main.e9701e8c.chunk.css.map",
+    "static/js/2.7a653688.chunk.js.LICENSE.txt": "/CleanReed/static/js/2.7a653688.chunk.js.LICENSE.txt",
     "static/media/CleanReed.dcb56c25.svg": "/CleanReed/static/media/CleanReed.dcb56c25.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.39c70b0a.js",
-    "static/css/2.53150396.chunk.css",
-    "static/js/2.ac4072af.chunk.js",
-    "static/css/main.2a62e30a.chunk.css",
-    "static/js/main.1fa32884.chunk.js"
+    "static/js/runtime-main.f71123de.js",
+    "static/css/2.acf9cc11.chunk.css",
+    "static/js/2.7a653688.chunk.js",
+    "static/css/main.e9701e8c.chunk.css",
+    "static/js/main.8c9eef67.chunk.js"
   ]
 }
