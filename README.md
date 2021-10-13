@@ -39,9 +39,9 @@ Disclamer: This project is not supported, endoresed or sponsered by either Reddi
 - [x] App extracts .json data from corresponding subreddits
 - [x] Develop tests for each React component
 - [x] Include CircleCI and Travis-CI inside project
-- [ ] Add a permalink url to each post made
-- [ ] Align all posts into small rows
-- [ ] Perfect the color scheme and page layout for app 
+- [x] Add a permalink url to each post made
+- [x] Align all posts into small rows
+- [x] Perfect the color scheme and page layout for app 
 
 ### Future app goals:
 

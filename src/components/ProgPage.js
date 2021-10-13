@@ -21,14 +21,20 @@ export default class ProgPage extends React.Component {
         return (
             <ul>
                 {data.map((recentPost) => (
-                    <li key={recentPost.permalink} className="postBoxProgpage col">
-                        {recentPost.thumbnail}
-                        <span className="postTitle">{recentPost.title.slice(0, 75)}</span>
+                    <li
+                        key={recentPost.permalink}
+                        className="postBoxProgpage col"
+                    >
+                        {recentPost.thumbnail}{' '}
+                        <a href={recentPost.url}>
+                            <span className="postTitle">
+                                {recentPost.title.slice(0, 75)}
+                            </span>
+                        </a>{' '}
                         <br />
                         <span className="postAuthorStyle">
                             by {recentPost.author} |
-                        </span>{' '}
-                        |
+                        </span>
                         <span className="postUpvoteStyle">
                             👍 {recentPost.ups} upvotes
                         </span>

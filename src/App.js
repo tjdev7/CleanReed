@@ -16,8 +16,13 @@ class App extends React.Component {
         return (
             <div className="App">
                 <header className="">
-                    <img className="mainIcon" alt="appIcon" src={CleanReed} />
-
+                    <li>
+                        <img
+                            className="mainIcon"
+                            alt="CleanReed-Icon"
+                            src={CleanReed}
+                        />
+                    </li>
                     <BrowserRouter>
                         <Link to="/HomePage">
                             <li>Home</li>
@@ -43,6 +48,10 @@ class App extends React.Component {
                         <Link to="/AboutPage">
                             <li>About</li>
                         </Link>
+                        <br />
+                        <br />
+
+                        <br />
 
                         <Route path="/HomePage" component={HomePage} />
                         <Route path="/AllPage" component={AllPage} />
