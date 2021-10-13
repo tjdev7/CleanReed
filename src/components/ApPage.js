@@ -24,19 +24,22 @@ export default class ApPage extends React.Component {
             <ul>
                 {data.map((recentPost) => (
                     <li key={recentPost.permalink} className="postBox col">
+                        {' '}
+                        <a href={recentPost.url}>
+                            <img
+                                classname="img-fluid"
+                                src={recentPost.thumbnail}
+                                alt="[No img is available for the selected post]"
+                            />
+                        </a>{' '}
                         <br />
-                        <img
-                            classname="img-fluid"
-                            src={recentPost.thumbnail}
-                            alt="[No img is available for the selected post]"
-                        />
-                        <br />
-                        <span className="postTitle">{recentPost.title.slice(0, 75)}</span>
+                        <span className="postTitle">
+                            {recentPost.title.slice(0, 75)}
+                        </span>
                         <br />
                         <span className="postAuthorStyle">
                             by {recentPost.author} |
-                        </span>{' '}
-                        |
+                        </span>
                         <span className="postUpvoteStyle">
                             👍 {recentPost.ups} upvotes
                         </span>

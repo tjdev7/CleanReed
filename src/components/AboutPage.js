@@ -3,7 +3,7 @@ import React from 'react'
 export default class AboutPage extends React.Component {
     render() {
         return (
-            <div className="appBuildFont">
+            <div className="AboutPageStyle">
                 <br />
                 <br />
 
@@ -11,21 +11,21 @@ export default class AboutPage extends React.Component {
                 <br />
                 <br />
 
-                <li className="abtPageRes">
+                <h2 className="abtPageRes">
                     {' '}
                     <a href={'https://github.com/Toughee/CleanReed/projects/1'}>
                         App roadmap
                     </a>{' '}
-                </li>
+                </h2>
 
-                <li className="abtPageRes">
+                <h2 className="abtPageRes">
                     {' '}
                     <a href={'https://github.com/Toughee/CleanReed/wiki'}>
                         App wiki
                     </a>{' '}
-                </li>
+                </h2>
 
-                <li className="abtPageRes">
+                <h2 className="abtPageRes">
                     {' '}
                     <a
                         href={
@@ -34,14 +34,14 @@ export default class AboutPage extends React.Component {
                     >
                         Documentation for contributors
                     </a>{' '}
-                </li>
+                </h2>
 
-                <li className="abtPageRes">
+                <h2 className="abtPageRes">
                     {' '}
                     <a href={'https://github.com/Toughee/CleanReed'}>
                         Github page
                     </a>{' '}
-                </li>
+                </h2>
             </div>
         )
     }
