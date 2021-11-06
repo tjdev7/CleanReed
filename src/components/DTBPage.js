@@ -30,6 +30,7 @@ export default class DTBPage extends React.Component {
                                 classname="img-fluid"
                                 src={recentPost.thumbnail}
                                 alt="[No img is available for the selected post]"
+                                loading="lazy" 
                             />
                         </a>{' '}
                         <br />

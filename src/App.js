@@ -9,7 +9,7 @@ import TLPage from './components/TLPage'
 import ApPage from './components/ApPage'
 import AboutPage from './components/AboutPage'
 
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 class App extends React.Component {
     render() {
@@ -52,15 +52,17 @@ class App extends React.Component {
                         <br />
 
                         <br />
-
-                        <Route path="/HomePage" component={HomePage} />
-                        <Route path="/AllPage" component={AllPage} />
-                        <Route path="/DTBPage" component={DTBPage} />
-                        <Route path="/ProgPage" component={ProgPage} />
-                        <Route path="/TLPage" component={TLPage} />
-                        <Route path="/ApPage" component={ApPage} />
-                        <Route path="/AboutPage" component={AboutPage} />
-                    </BrowserRouter>
+                        <Routes>
+                        <Route path="/HomePage" element={<HomePage />} />
+                        <Route path="/AllPage" element={<AllPage />} />
+                        <Route path="/DTBPage" element={<DTBPage/>} />
+                        <Route path="/ProgPage" element={<ProgPage/>} />
+                        <Route path="/TLPage" element={<TLPage/>} />
+                        <Route path="/ApPage" element={<ApPage/>} />
+                        <Route path="/AboutPage" element={<AboutPage/>} />
+                        
+                    </Routes>
+            </BrowserRouter>
                 </header>
             </div>
         )

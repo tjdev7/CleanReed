@@ -5,9 +5,9 @@
 }
 
 .appIntro {
-    margin: 3.5vw 4.2vw 0vw 4.2vw;
+    margin: 3.5rem 7rem 0rem 7rem;
     text-align: justify;
-    font-size: 3vw;
+    font-size: 2.4rem;
 }
 
 li {
@@ -69,7 +69,7 @@ h1 {
     padding-top: 20px;
     width: 35rem;
     height: 25rem;
-    border: 1px solid #000;
+    border: 3px solid #000;
     margin: 0.5rem 0.7rem 0rem 0rem;
     border-radius: 25px;
     text-align: center;
@@ -81,7 +81,7 @@ h1 {
     height: 15rem;
     margin: 0.5rem;
     padding: 1.5rem;
-    border: 0.5px solid #000;
+    border: 3px solid #000;
     border-radius: 25px;
     text-align: center;
 }
