@@ -25,7 +25,7 @@ Disclamer: This project is not supported, endoresed or sponsered by either Reddi
 - Cypress
 - TravisCI
 - CircleCI
-
+- ESLint, CSSLint and StyleLint
 ## Project resources:
 
 - [Current roadmap for app](https://github.com/Toughee/CleanReed/projects/1)
