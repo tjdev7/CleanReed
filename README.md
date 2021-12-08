@@ -4,7 +4,7 @@
 
 Data rendering app showcasing current posts inside reddit
 
-![Splash page](./public/img/CleanReedsplashpage.png)
+![Splash page](./public/img/CleanReed_splashpage.png)
 
 ## Why this app as created: 
 
@@ -25,7 +25,7 @@ Disclamer: This project is not supported, endoresed or sponsered by either Reddi
 - Cypress
 - TravisCI
 - CircleCI
-
+- ESLint, CSSLint and StyleLint
 ## Project resources:
 
 - [Current roadmap for app](https://github.com/Toughee/CleanReed/projects/1)
