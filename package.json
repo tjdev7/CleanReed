@@ -1,22 +1,22 @@
 {
   "name": "cleanreed",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "homepage": "https://toughee.github.io/CleanReed/",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
-    "nodemon": "^2.0.14",
-    "prettier": "^2.4.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "react-router-dom": "^6.0.1",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "^4.0.3",
-    "watchpack": "^2.2.0",
+    "watchpack": "^2.3.1",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
@@ -29,7 +29,7 @@
     "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
     "fullpr": "git add .&&git commit&&git push&&git merge",
-    "audits": "npm-update-all&&yarn install&&npm audit fix&&npm audit --fix"
+    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix"
   },
   "eslintConfig": {
     "extends": [
