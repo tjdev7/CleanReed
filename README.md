@@ -4,7 +4,7 @@
 
 Data rendering app showcasing current posts inside reddit
 
-![Splash page](./public/img/CleanReedsplashpage.png)
+![Splash page](./public/img/CleanReed_splashpage.png)
 
 ## Why this app as created: 
 
