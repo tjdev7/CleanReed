@@ -15,7 +15,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <header className="">
+                <header className="headerStyle">
                     <li>
                         <img
                             className="mainIcon"
@@ -28,7 +28,7 @@ class App extends React.Component {
                             <li>Home</li>
                         </Link>
 
-                        <Link to="/AllPage">
+                        {/* <Link to="/AllPage">
                             <li>General</li>
                         </Link>
 
@@ -44,7 +44,7 @@ class App extends React.Component {
                         </Link>
                         <Link to="/ApPage">
                             <li>AstroPhotography</li>
-                        </Link>
+                        </Link> */}
                         <Link to="/AboutPage">
                             <li>About</li>
                         </Link>
@@ -53,16 +53,20 @@ class App extends React.Component {
 
                         <br />
                         <Routes>
-                        <Route path="/HomePage" element={<HomePage />} />
-                        <Route path="/AllPage" element={<AllPage />} />
+                            <Route path="/HomePage" element={<HomePage />} />
+                            {/* <Route path="/AllPage" element={<AllPage />} />
                         <Route path="/DTBPage" element={<DTBPage/>} />
                         <Route path="/ProgPage" element={<ProgPage/>} />
                         <Route path="/TLPage" element={<TLPage/>} />
-                        <Route path="/ApPage" element={<ApPage/>} />
-                        <Route path="/AboutPage" element={<AboutPage/>} />
-                        
-                    </Routes>
-            </BrowserRouter>
+                        <Route path="/ApPage" element={<ApPage/>} /> */}
+                            <Route path="/AboutPage" element={<AboutPage />} />
+                        </Routes>
+                    </BrowserRouter>
+                    <br />
+                    <br />
+                    <br />
+
+                    <input placeholder="Search a page here" />
                 </header>
             </div>
         )

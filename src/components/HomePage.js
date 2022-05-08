@@ -11,18 +11,14 @@ export default class HomePage extends React.Component {
                     <br />
                     <br />
                     <br />
-
-
                     1) To automatically take posts from any subreddit you choose
                     from and displaying everything neatly in rows,
                     <br />
                     <br />
-
                     2) Allowing users to also securely link their reddit account
                     credentials with the app
                     <br />
                     <br />
-
                     3) For my small React app to be used as a
                     tool/add-on/extension by regular reddit users
                 </h2>

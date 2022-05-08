@@ -13,7 +13,7 @@
 li {
     display: block;
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #66a466;
     text-align: right;
     float: left;
@@ -29,8 +29,8 @@ header {
 }
 
 .mainIcon {
-    width: 7.5rem;
-    height: 3rem;
+    width: 8rem;
+    height: 5rem;
     padding: -10px;
     margin: -10px;
 }
@@ -104,4 +104,15 @@ a {
 .postAuthorStyle,
 .postUpvoteStyle {
     font-size: 1.2rem;
+}
+
+input {
+    width: 25rem;
+    height: 2rem;
+    margin: 0;
+    border-top: 0.0001px solid #ddd;
+    border-right: 0.0001px solid #ddd;
+    border-left: 0.0001px solid #ddd;
+    border-bottom: 0.5px solid #000000;
+    font-size: 5rem;
 }
