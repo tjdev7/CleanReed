@@ -11,9 +11,10 @@
 }
 
 li {
+    font-size: 5rem;
     display: block;
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #66a466;
     text-align: right;
     float: left;
@@ -23,14 +24,15 @@ body {
     color: rgb(240, 248, 255);
 }
 
-header {
+.headerStyle {
     margin-bottom: 5px;
-    padding-bottom: 5px;
+    padding: 2.5rem;
+    background-color: rgb(25, 24, 24);
 }
 
 .mainIcon {
-    width: 7.5rem;
-    height: 3rem;
+    width: 8rem;
+    height: 5rem;
     padding: -10px;
     margin: -10px;
 }
@@ -104,4 +106,26 @@ a {
 .postAuthorStyle,
 .postUpvoteStyle {
     font-size: 1.2rem;
+}
+
+.SearchBar {
+    /* width: 25rem;
+    height: 2rem;
+    margin: 0;
+    border-top: 0.0001px solid #ddd;
+    border-right: 0.0001px solid #ddd;
+    border-left: 0.0001px solid #ddd;
+    border-bottom: 0.5px solid #000000;
+    font-size: 5rem; */
+    margin: auto;
+    width: 70%;
+    padding: 3rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    box-shadow: 0px 5px 25px rgba(129, 129, 129, 0.2);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 500px;
+    border: 4.5px solid rgba(0, 0, 0, 0.3);
 }

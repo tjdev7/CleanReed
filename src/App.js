@@ -15,20 +15,21 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <header className="">
+                <header className="headerStyle">
                     <li>
                         <img
                             className="mainIcon"
                             alt="CleanReed-Icon"
                             src={CleanReed}
-                        />
+                        /> CleanReed
                     </li>
                     <BrowserRouter>
-                        <Link to="/HomePage">
-                            <li>Home</li>
-                        </Link>
 
-                        <Link to="/AllPage">
+                        {/* <Link to="/HomePage">
+                            <li>Homepage</li>
+                        </Link> */}
+
+                        {/* <Link to="/AllPage">
                             <li>General</li>
                         </Link>
 
@@ -44,26 +45,31 @@ class App extends React.Component {
                         </Link>
                         <Link to="/ApPage">
                             <li>AstroPhotography</li>
-                        </Link>
-                        <Link to="/AboutPage">
+                        </Link> */}
+                        {/* <Link to="/AboutPage">
                             <li>About</li>
-                        </Link>
-                        <br />
-                        <br />
+                        </Link> */}
 
-                        <br />
                         <Routes>
-                        <Route path="/HomePage" element={<HomePage />} />
-                        <Route path="/AllPage" element={<AllPage />} />
+                            {/* <Route path="/HomePage" element={<HomePage />} />
+                            {/* <Route path="/AllPage" element={<AllPage />} />
                         <Route path="/DTBPage" element={<DTBPage/>} />
                         <Route path="/ProgPage" element={<ProgPage/>} />
                         <Route path="/TLPage" element={<TLPage/>} />
-                        <Route path="/ApPage" element={<ApPage/>} />
-                        <Route path="/AboutPage" element={<AboutPage/>} />
-                        
-                    </Routes>
-            </BrowserRouter>
+                        <Route path="/ApPage" element={<ApPage/>} /> */}
+                            <Route path="/AboutPage" element={<AboutPage />} />
+                        </Routes> */}
+                    </BrowserRouter>
+                    
+                    <br />
+                    <br />
+                    <br />
+                    
                 </header>
+                <br />
+                    <br />
+                    <br />
+                <input className="SearchBar" placeholder="Search a subreddit here" />
             </div>
         )
     }
