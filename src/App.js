@@ -21,12 +21,13 @@ class App extends React.Component {
                             className="mainIcon"
                             alt="CleanReed-Icon"
                             src={CleanReed}
-                        />
+                        /> CleanReed
                     </li>
                     <BrowserRouter>
-                        <Link to="/HomePage">
-                            <li>Home</li>
-                        </Link>
+
+                        {/* <Link to="/HomePage">
+                            <li>Homepage</li>
+                        </Link> */}
 
                         {/* <Link to="/AllPage">
                             <li>General</li>
@@ -45,29 +46,30 @@ class App extends React.Component {
                         <Link to="/ApPage">
                             <li>AstroPhotography</li>
                         </Link> */}
-                        <Link to="/AboutPage">
+                        {/* <Link to="/AboutPage">
                             <li>About</li>
-                        </Link>
-                        <br />
-                        <br />
+                        </Link> */}
 
-                        <br />
                         <Routes>
-                            <Route path="/HomePage" element={<HomePage />} />
+                            {/* <Route path="/HomePage" element={<HomePage />} />
                             {/* <Route path="/AllPage" element={<AllPage />} />
                         <Route path="/DTBPage" element={<DTBPage/>} />
                         <Route path="/ProgPage" element={<ProgPage/>} />
                         <Route path="/TLPage" element={<TLPage/>} />
                         <Route path="/ApPage" element={<ApPage/>} /> */}
                             <Route path="/AboutPage" element={<AboutPage />} />
-                        </Routes>
+                        </Routes> */}
                     </BrowserRouter>
+                    
                     <br />
                     <br />
                     <br />
-
-                    <input placeholder="Search a page here" />
+                    
                 </header>
+                <br />
+                    <br />
+                    <br />
+                <input className="SearchBar" placeholder="Search a subreddit here" />
             </div>
         )
     }
