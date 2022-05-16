@@ -16,6 +16,13 @@ export default class AllPage extends React.Component {
             this.setState({ data })
         })
     }
+
+    // componentDidMount() {
+    //     fetch(`https://www.reddit.com/r/${query}.json`).then((res) => {
+    //         const data = res.data.data.children.map((obj) => obj.data)
+    //         this.setState({ data })
+    //     })
+    // }
     render() {
         const { data } = this.state
         return (
