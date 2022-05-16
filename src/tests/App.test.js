@@ -1,7 +1,6 @@
-import { render, screen } from '@testing-library/react'
-import App from './App.js'
+import { render } from '@testing-library/react'
+import App from '../App'
 
-test('Renders BrowserRouter with different routes with no issues', () => {
+test('Renders App component with no issues', () => {
     render(<App />)
 })
-screen.debug()
