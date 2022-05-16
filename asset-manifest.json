@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CleanReed/static/css/main.83e653ce.css",
-    "main.js": "/CleanReed/static/js/main.3d28668d.js",
+    "main.js": "/CleanReed/static/js/main.01bd029b.js",
     "static/js/787.312536e6.chunk.js": "/CleanReed/static/js/787.312536e6.chunk.js",
     "index.html": "/CleanReed/index.html",
     "main.83e653ce.css.map": "/CleanReed/static/css/main.83e653ce.css.map",
-    "main.3d28668d.js.map": "/CleanReed/static/js/main.3d28668d.js.map",
+    "main.01bd029b.js.map": "/CleanReed/static/js/main.01bd029b.js.map",
     "787.312536e6.chunk.js.map": "/CleanReed/static/js/787.312536e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83e653ce.css",
-    "static/js/main.3d28668d.js"
+    "static/js/main.01bd029b.js"
   ]
 }
