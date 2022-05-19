@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { BsFillHandThumbsUpFill } from "react-icons/bs";
 
 function SearchBar() {
     
@@ -20,19 +21,12 @@ function SearchBar() {
         }
     }
 
-    // const [query, setQuery] = useState('');
-    // const reqTest = (event) => {
-    //     if (event.key === "Enter") {
-    //         fetch(`https://www.reddit.com/r/${query}.json`).then((res) => {
-    //         const data = res.data.data.children.map((obj) => obj.data)
-    //         this.setState({ data })
-    //     })
-    //     }
-    // }
-    
         return (
             
             <div>
+               
+
+                <ul>
                 <input 
                 className="SearchBar" 
                 placeholder="Search a subreddit here" 
@@ -41,42 +35,11 @@ function SearchBar() {
                 onKeyPress={reqTest}
 
                 />
+                <br/>
+                <br/>
+                    <li key = {rdtData.permalink} className="postBox col">{rdtData.subreddit}</li>
 
-                <ul>
-
-                    <h1>{rdtData.subreddit}</h1>
 </ul>
-
-                {/*
-                
-                 {
-                     
-                     (
-                        if rdtData ==== "undefined"
-                        <span>CleanReed: An cleaner browsing experience for Reddit</span>
-                     )
-                     :
-                     (
-                     if rdtData. === null ? : (
-                    <span>:(</span>
-                    <h1>Sorry. It doesn't look like that Reddit page exists</h1>
-                    )
-                    :
-                    (
-                     if rdtData. === null ? : (
-                    <span>:(</span>
-                    <h1>Sorry. It doesn't look like that Reddit page exists</h1>
-                    ) 
-                    : 
-                    : 
-                    ( 
-                    if rdtData.error === "403"                    
-                    <h1>Sorry. It looks like this Reddit page is restricted</h1>
-                    <span>:/</span>
-                )} 
-                
-                */}
-            
             </div>
         )
     }
