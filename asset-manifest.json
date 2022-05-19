@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CleanReed/static/css/main.83e653ce.css",
-    "main.js": "/CleanReed/static/js/main.01bd029b.js",
+    "main.css": "/CleanReed/static/css/main.60f4bfdf.css",
+    "main.js": "/CleanReed/static/js/main.bef5fa42.js",
     "static/js/787.312536e6.chunk.js": "/CleanReed/static/js/787.312536e6.chunk.js",
     "index.html": "/CleanReed/index.html",
-    "main.83e653ce.css.map": "/CleanReed/static/css/main.83e653ce.css.map",
-    "main.01bd029b.js.map": "/CleanReed/static/js/main.01bd029b.js.map",
+    "main.60f4bfdf.css.map": "/CleanReed/static/css/main.60f4bfdf.css.map",
+    "main.bef5fa42.js.map": "/CleanReed/static/js/main.bef5fa42.js.map",
     "787.312536e6.chunk.js.map": "/CleanReed/static/js/787.312536e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83e653ce.css",
-    "static/js/main.01bd029b.js"
+    "static/css/main.60f4bfdf.css",
+    "static/js/main.bef5fa42.js"
   ]
 }
