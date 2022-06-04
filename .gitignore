@@ -125,3 +125,27 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Cypress files
+
+# E2E:
+/cypress.config.js
+/cypress/fixtures/example.json
+/cypress/support/commands.js
+/cypress/support/e2e.js
+
+# Component:
+/cypress.config.js
+/cypress/fixtures/example.json
+/cypress/support/commands.js
+/cypress/support/component.js
+/cypress/support/component-index.html
+
+# Both:
+/cypress.config.js
+/cypress/fixtures/example.json
+/cypress/support/commands.js
+/cypress/support/e2e.js
+/cypress/support/component.js
+/cypress/support/component-index.html
