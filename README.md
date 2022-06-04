@@ -1,4 +1,4 @@
-![App logo](./src/img/CleanReed.svg)
+![App logo](./src/img/CleanReed_header_icon.svg)
 
 # CleanReed
 
@@ -27,6 +27,9 @@ Disclamer: This project is not supported, endoresed or sponsered by either Reddi
 
 - React Testing library
 - Jest
+- Mocha
+- Cypress
+- Webpack
 - TravisCI
 - CircleCI
 - ESLint, CSSLint and StyleLint
