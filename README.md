@@ -4,7 +4,14 @@
 
 Data rendering app showcasing current posts inside reddit
 
-![Splash page](./public/img/CleanReed_splashpage.png)
+- [CleanReed](#cleanreed)
+  - [Why this app as created:](#why-this-app-as-created)
+  - [How to use:](#how-to-use)
+  - [Testing tools used for app:](#testing-tools-used-for-app)
+  - [Project resources:](#project-resources)
+    - [Future app goals:](#future-app-goals)
+    - [Completed tasks:](#completed-tasks)
+    - [Completed tasks for earlier version of app:](#completed-tasks-for-earlier-version-of-app)
 
 ## Why this app as created: 
 
@@ -52,6 +59,8 @@ Disclamer: This project is not supported, endoresed or sponsered by either Reddi
 
 - [x] User has the option to search for any subreddit currently available (Currently displays inside the console as in JSON format) 
 - [x] Improve the UI design for app
+
+
 ### Completed tasks for earlier version of app:
 
 - [x] Align all posts into small rows
