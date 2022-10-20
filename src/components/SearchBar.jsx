@@ -37,7 +37,7 @@ function SearchBar() {
                 />
                 <br/>
                 <br/>
-                    <li key = {rdtData.permalink} className="postBox col">{rdtData.subreddit}</li>
+                    {/* <li key = {rdtData.permalink} className="postBox col">{rdtData.subreddit}</li> */}
 
 </ul>
             </div>

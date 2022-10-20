@@ -6,29 +6,22 @@ class App extends React.Component {
         return (
             <div className="App">
                 <header className="headerStyle">
-                    <details>
-                        <summary className="menuItem">☰</summary>{' '}
-                        <a href={'https://github.com/Toughee/CleanReed'}>
-                            <li className="menuItem">README</li>
-                        </a>{' '}
-                        <a
-                            href={
-                                'https://github.com/Toughee/CleanReed/projects/1'
-                            }
-                        >
-                            <li className="menuItem">Roadmap </li>
-                        </a>{' '}
-                        <a href={'https://github.com/Toughee/CleanReed/wiki'}>
-                            <li className="menuItem">Wiki</li>
-                        </a>{' '}
-                        <a
-                            href={
-                                'https://github.com/Toughee/CleanReed/tree/main/docs'
-                            }
-                        >
-                            <li className="menuItem">Docs</li>
-                        </a>{' '}
-                    </details>
+                    <a href={'https://github.com/Toughee/CleanReed'}>
+                        <li className="menuItem">README</li>
+                    </a>{' '}
+                    <a href={'https://github.com/Toughee/CleanReed/projects/1'}>
+                        <li className="menuItem">Roadmap </li>
+                    </a>{' '}
+                    <a href={'https://github.com/Toughee/CleanReed/wiki'}>
+                        <li className="menuItem">Wiki</li>
+                    </a>{' '}
+                    <a
+                        href={
+                            'https://github.com/Toughee/CleanReed/tree/main/docs'
+                        }
+                    >
+                        <li className="menuItem">Docs</li>
+                    </a>{' '}
                 </header>
                 <SearchBar />
             </div>
