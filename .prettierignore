@@ -38,6 +38,7 @@ node_modules/
 jspm_packages/
 coveragegit
 .history/
+cypress/
 
 # TypeScript v1 declaration files
 typings/

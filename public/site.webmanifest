@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "CleanReed",
+    "short_name": "An API data request app showcasing current posts inside reddit",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#66a466",
     "background_color": "#ffffff",
     "display": "standalone"
 }
