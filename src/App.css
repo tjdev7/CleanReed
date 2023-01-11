@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+header {
+    padding: 0.8rem;
+    background-color: #66a466;
+    /* padding: 1rem 2rem 4.5rem 2rem; */
+}
 
 .App {
     text-align: center;
 }
 
 .menuItem {
-    display: block;
+    display: inline-block;
     padding: 0.5rem;
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     font-weight: bolder;
-    color: #66a466;
-    text-align: right;
-    float: left;
+    color: #ffffff;
+    text-align: center;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -26,12 +32,6 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.headerStyle {
-    margin-bottom: 5rem;
-    padding: 0rem 0rem 4.2rem 0rem;
-    background-color: rgb(25, 24, 24);
-}
-
 .mainIcon {
     width: 2rem;
     height: 1rem;
@@ -41,15 +41,19 @@ body {
 
 img,
 .autogenImg {
-    width: 15rem;
-    height: 10rem;
+    width: 30rem;
+    height: 30rem;
     color: #000;
     border-radius: 5%;
     margin: 0.1rem;
+    font-size: 2.5rem;
 }
 
-h1 {
-    color: #000;
+.AppTitle {
+    color: #ffffff;
+    font-size: 5rem;
+    margin: 1rem;
+    font-family: 'Poiret One', cursive;
 }
 
 .AboutPageStyle {
@@ -63,18 +67,18 @@ h1 {
 */
 
 .postBox {
-    padding: 1rem;
+    padding: 3rem;
     width: auto;
     border: 0.5px solid #000;
-    margin: 0.5rem 0.7rem 0rem 0rem;
-    border-radius: 25px;
+    margin: 1.5rem 0rem 0.5rem 0rem;
+    border-radius: 10px;
     text-align: left;
 }
 
 .postTitle {
     color: #000000;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .postTitle a,
@@ -84,7 +88,7 @@ a {
 
 .postAuthorStyle,
 .postUpvoteStyle {
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
 
 .SearchBar {

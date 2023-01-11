@@ -1,7 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react'
 import axios from 'axios'
+
 import { BsFillHandThumbsUpFill } from 'react-icons/bs'
+
+import 'bootstrap/dist/css/bootstrap.css'
+
 export default class AllPage extends React.Component {
     constructor(props) {
         super()
@@ -10,12 +13,24 @@ export default class AllPage extends React.Component {
         }
     }
 
-    componentDidMount() {
-        axios.get(`https://www.reddit.com/r/all.json`).then((res) => {
-            const data = res.data.data.children.map((obj) => obj.data)
-            this.setState({ data })
-        })
-    }
+    // EZ finish -- you ALREADY did this
+    // 1) API or json data
+    // var URL = "https://pixabay.com/api/?key="+{API_KEY}+"&q="+encodeURIComponent('red roses');
+    // var URL = "https://pixabay.com/api/?key="+{API_KEY}+"&q="+encodeURIComponent('red roses');
+    // var URL = "https://pixabay.com/api/?key="+{API_KEY}+"&q="+encodeURIComponent('red roses');
+    // (`https://www.reddit.com/r/${query}.json`)
+
+    // 2) states (setState(''), loading, useState('data render'))
+    // 3) Fetch data (3 to 4 lines of code)
+    // 4) data.map to show all data
+    // 5) css to style it.
+
+    // componentDidMount() {
+    //     axios.get(`https://www.reddit.com/r/all.json`).then((res) => {
+    //         const data = res.data.data.children.map((obj) => obj.data)
+    //         this.setState({ data })
+    //     })
+    // }
 
     // componentDidMount() {
     //     fetch(`https://www.reddit.com/r/${query}.json`).then((res) => {
@@ -23,13 +38,26 @@ export default class AllPage extends React.Component {
     //         this.setState({ data })
     //     })
     // }
+
+    // componentWillUpdate() {
+    //     fetch(`https://www.reddit.com/r/${query}.json`).then((res) => {
+    //         const data = res.data.data.children.map((obj) => obj.data)
+    //         this.setState({ data })
+    //     })
+    // }    // componentUnmount() {
+    //     fetch(`https://www.reddit.com/r/${query}.json`).then((res) => {
+    //         const data = res.data.data.children.map((obj) => obj.data)
+    //         this.setState({ data })
+    //     })
+    // }
+
     render() {
         const { data } = this.state
         return (
             <ul>
                 <input
                     className="SearchBar"
-                    placeholder="Search a subreddit here"
+                    placeholder="Search for a subreddit here"
                 />
                 <br />
                 <br />
