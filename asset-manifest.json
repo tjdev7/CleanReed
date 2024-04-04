@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CleanReed/static/css/main.95029fb7.css",
-    "main.js": "/CleanReed/static/js/main.cede6778.js",
-    "static/js/47.4fb61b45.chunk.js": "/CleanReed/static/js/47.4fb61b45.chunk.js",
+    "main.css": "/CleanReed/static/css/main.2838df8a.css",
+    "main.js": "/CleanReed/static/js/main.b24177ee.js",
+    "static/js/462.58e3fd1b.chunk.js": "/CleanReed/static/js/462.58e3fd1b.chunk.js",
     "index.html": "/CleanReed/index.html",
-    "main.95029fb7.css.map": "/CleanReed/static/css/main.95029fb7.css.map",
-    "main.cede6778.js.map": "/CleanReed/static/js/main.cede6778.js.map",
-    "47.4fb61b45.chunk.js.map": "/CleanReed/static/js/47.4fb61b45.chunk.js.map"
+    "main.2838df8a.css.map": "/CleanReed/static/css/main.2838df8a.css.map",
+    "main.b24177ee.js.map": "/CleanReed/static/js/main.b24177ee.js.map",
+    "462.58e3fd1b.chunk.js.map": "/CleanReed/static/js/462.58e3fd1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95029fb7.css",
-    "static/js/main.cede6778.js"
+    "static/css/main.2838df8a.css",
+    "static/js/main.b24177ee.js"
   ]
 }
