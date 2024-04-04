@@ -1,11 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react'
 import axios from 'axios'
 
-import { BsFillHandThumbsUpFill } from 'react-icons/bs'
-
-import 'bootstrap/dist/css/bootstrap.css'
-
-export default class SearchBar extends React.Component {
+export default class ScienceSub extends React.Component {
     constructor(props) {
         super()
         this.state = {
@@ -19,18 +16,10 @@ export default class SearchBar extends React.Component {
             this.setState({ data })
         })
     }
-
     render() {
         const { data } = this.state
         return (
             <ul>
-                <input
-                    className="SearchBar"
-                    placeholder="Search for a subreddit here"
-                />
-                <br />
-                <br />
-
                 {data.map((recentPost) => (
                     <li key={recentPost.permalink} className="postBox col">
                         {' '}
@@ -38,7 +27,7 @@ export default class SearchBar extends React.Component {
                             <img
                                 className="img-fluid"
                                 src={recentPost.thumbnail}
-                                alt="❌"
+                                alt="[No img is available for the selected post]"
                                 loading="lazy"
                             />
                         </a>{' '}
@@ -48,9 +37,14 @@ export default class SearchBar extends React.Component {
                         </span>
                         <br />
                         <span className="postAuthorStyle">
-                            By {recentPost.author} | From /r/
-                            {recentPost.subreddit}/ |
-                            <BsFillHandThumbsUpFill /> {recentPost.ups} upvotes
+                            by {recentPost.author} |
+                        </span>
+                        <span className="postUpvoteStyle">
+                            👍 {recentPost.ups} upvotes |
+                        </span>
+                        <br />
+                        <span className="postUpvoteStyle">
+                            From /r/{recentPost.subreddit}/
                         </span>
                     </li>
                 ))}
