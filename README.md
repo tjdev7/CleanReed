@@ -2,7 +2,10 @@
 
 # CleanReed
 
-An API data request app showcasing current posts inside reddit
+An React dashboard app rendering API and JSON data from multiple subreddit boards.
+
+
+![CleanReed 04-03-2024 update](./src/img/CleanReed--2024-04-03.gif)
 
 - [Why this app as created:](#why-this-app-as-created)
 - [How to use:](#how-to-use)

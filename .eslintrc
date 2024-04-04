@@ -2,7 +2,8 @@
     "parser": "@babel/eslint-parser",
     "extends": [
       "react",
-      "prettier"
+      "prettier",
+      "plugin:react/recommended"
     ],
     "env": {
       "browser": true,
@@ -19,4 +20,8 @@
         "modules": true
       }
     },
+    "rules": {   
+     "react/jsx-uses-react": "error",   
+     "react/jsx-uses-vars": "error" 
+}
   }

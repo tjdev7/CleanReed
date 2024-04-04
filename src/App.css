@@ -3,7 +3,7 @@
 
 header {
     padding: 0.8rem;
-    background-color: #66a466;
+
     /* padding: 1rem 2rem 4.5rem 2rem; */
 }
 
@@ -19,14 +19,15 @@ header {
     color: #ffffff;
     text-align: center;
     font-family: 'Nunito', sans-serif;
+    color: #66a466;
 }
 
-.menuItem:hover {
+/* .menuItem:hover {
     font-size: 2.5rem;
     font-weight: bolder;
     background-color: #fff;
     padding: 0.5rem;
-}
+} */
 
 body {
     color: rgb(0, 0, 0);
@@ -54,6 +55,7 @@ img,
     font-size: 5rem;
     margin: 1rem;
     font-family: 'Poiret One', cursive;
+    color: #66a466;
 }
 
 .AboutPageStyle {
@@ -67,12 +69,12 @@ img,
 */
 
 .postBox {
-    padding: 3rem;
-    width: auto;
+    padding: 1rem;
+    width: 70%;
     border: 0.5px solid #000;
-    margin: 1.5rem 0rem 0.5rem 0rem;
+    margin: 0.5rem 15rem 0.5rem 15rem;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .postTitle {
@@ -91,7 +93,7 @@ a {
     font-size: 1.8rem;
 }
 
-.SearchBar {
+/* .SearchBar {
     margin: auto;
     width: 95%;
     padding: 1.8rem;
@@ -103,9 +105,16 @@ a {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 500px;
     border: 4.5px solid rgba(0, 0, 0, 0.3);
-}
+} */
 
 ul,
 li {
     list-style-type: none;
+    color: #66a466;
+}
+
+.headerBar {
+    color: #ffffff;
+    font-size: 2rem;
+    color: #66a466;
 }
