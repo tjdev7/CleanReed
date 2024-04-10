@@ -117,7 +117,7 @@ class App extends React.Component {
                         <span className="headerBar"> | </span>
                         <a
                             href={
-                                'https://github.com/tjdev7/CleanReed/tree/main/docs'
+                                'https://github.com/tjdev7/CleanReed'
                             }
                         >
                             <li className="menuItem">GitHub Repo</li>
