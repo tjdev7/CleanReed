@@ -1,6 +1,6 @@
 {
   "short_name": "CleanReed",
-  "name": "An API data request app showcasing current posts inside reddit",
+  "name": "An React dashboard app rendering API and JSON data from multiple subreddit boards.",
   "icons": [
     {
       "src": "favicon.ico",
