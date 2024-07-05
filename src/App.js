@@ -21,69 +21,15 @@ class App extends React.Component {
                 <header className="headerStyle">
                     <h1 className="AppTitle">CleanReed</h1>
 
-                    {/* <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">Movies</li>
-                    </a>{' '} <span className='headerBar'> | </span>
-
-                    <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">Funny</li>
-                    </a>{' '} <span className='headerBar'> | </span>
-
-                    <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">Pics</li>
-                    </a>{' '} <span className='headerBar'> | </span>
-
-                    <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">Science</li>
-                    </a>{' '} <span className='headerBar'> | </span>
-
-                    <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">Music</li>
-                    </a>{' '} <span className='headerBar'> | </span>
-
-                    <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">World News</li>
-                    </a>{' '} <span className='headerBar'> | </span>
-
-                    <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">Videos</li>
-                    </a>{' '} <span className='headerBar'> | </span><span className='headerBar'> | </span>
-
-                    <a
-                        href={
-                            'https://github.com/tjdev7/CleanReed/tree/main/docs'
-                        }
-                    >
-                        <li className="menuItem">GitHub Repo</li>
-                    </a>{' '} */}
+                    <label className="subTitleStyling">
+                        A minimalist React UI tool for browsing Reddit
+                    </label>
+                    <br />
+                    <label className="subTitleStyling">
+                        Choose any of the subreddits below to start browsing
+                    </label>
+                    <hr />
+                    <br />
 
                     <BrowserRouter>
                         <Link to="/moviesSub">
@@ -115,11 +61,7 @@ class App extends React.Component {
                         </Link>
                         <span className="headerBar"> | </span>
                         <span className="headerBar"> | </span>
-                        <a
-                            href={
-                                'https://github.com/tjdev7/CleanReed'
-                            }
-                        >
+                        <a href={'https://github.com/tjdev7/CleanReed'}>
                             <li className="menuItem">GitHub Repo</li>
                         </a>{' '}
                         <Routes>
@@ -151,8 +93,7 @@ class App extends React.Component {
                         </Routes>
                     </BrowserRouter>
                 </header>
-
-                {/* <SearchBar /> */}
+                <hr />
             </div>
         )
     }

@@ -23,11 +23,11 @@ export default class FunnySub extends React.Component {
                 {data.map((recentPost) => (
                     <li key={recentPost.permalink} className="postBox col">
                         {' '}
-                        <a href={recentPost.url}>
+                        <a href={recentPost.permalink}>
                             <img
                                 className="img-fluid"
                                 src={recentPost.thumbnail}
-                                alt="[No img is available for the selected post]"
+                                alt="[No img available]"
                                 loading="lazy"
                             />
                         </a>{' '}

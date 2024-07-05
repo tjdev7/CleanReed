@@ -52,7 +52,7 @@ export default class AllPage extends React.Component {
     // }
 
     render() {
-        const { data } = this.state
+        const { data, loading } = this.state
         return (
             <ul>
                 <input
@@ -63,7 +63,11 @@ export default class AllPage extends React.Component {
                 <br />
 
                 {data.map((recentPost) => (
-                    <li key={recentPost.permalink} className="postBox col">
+                    <li
+                        key={recentPost.permalink}
+                        loading={isLoading}
+                        className="postBox col"
+                    >
                         {' '}
                         <a href={recentPost.url}>
                             <img
