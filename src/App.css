@@ -45,14 +45,14 @@ img,
     width: 30rem;
     height: 30rem;
     color: #000;
-    border-radius: 5%;
+    border-radius: 1%;
     margin: 0.1rem;
     font-size: 2.5rem;
 }
 
 .AppTitle {
     color: #ffffff;
-    font-size: 5rem;
+    font-size: 5.5rem;
     margin: 1rem;
     font-family: 'Poiret One', cursive;
     color: #66a466;
@@ -61,6 +61,12 @@ img,
 .AboutPageStyle {
     padding: 10px;
     text-align: center;
+}
+
+.subTitleStyling {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    color: #66a466;
 }
 /*
 =======================================================================

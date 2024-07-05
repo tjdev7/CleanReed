@@ -27,7 +27,7 @@ export default class MoviesSub extends React.Component {
                             <img
                                 className="img-fluid"
                                 src={recentPost.thumbnail}
-                                alt="[No img is available for the selected post]"
+                                alt="[No img available]"
                                 loading="lazy"
                             />
                         </a>{' '}
