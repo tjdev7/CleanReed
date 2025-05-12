@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react'
 import axios from 'axios'
+// import "/placeholder__400x400";
 
 export default class WorldNewsSub extends React.Component {
     constructor(props) {
@@ -27,7 +28,7 @@ export default class WorldNewsSub extends React.Component {
                             <img
                                 className="img-fluid"
                                 src={recentPost.thumbnail}
-                                alt="[No img is available for the selected post]"
+                                alt="No Img available"
                                 loading="lazy"
                             />
                         </a>{' '}

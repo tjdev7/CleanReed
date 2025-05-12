@@ -9,7 +9,6 @@ export default class FunnySub extends React.Component {
             data: [],
         }
     }
-
     componentDidMount() {
         axios.get(`https://www.reddit.com/r/funny.json`).then((res) => {
             const data = res.data.data.children.map((obj) => obj.data)
@@ -19,15 +18,15 @@ export default class FunnySub extends React.Component {
     render() {
         const { data } = this.state
         return (
-            <ul>
+            <ul className="">
                 {data.map((recentPost) => (
-                    <li key={recentPost.permalink} className="postBox col">
+                    <li key={recentPost.permalink} className="postBox">
                         {' '}
-                        <a href={recentPost.permalink}>
+                        <a href={recentPost.url}>
                             <img
                                 className="img-fluid"
                                 src={recentPost.thumbnail}
-                                alt="[No img available]"
+                                alt="No Img available"
                                 loading="lazy"
                             />
                         </a>{' '}
